@@ -1,7 +1,7 @@
 {
-    "name": "super-cool-project",
-    "version": "0.0.0",
-    "description": "a super cool project",
+    "name": "BRAINFUCK",
+    "version": "0.1.0",
+    "description": "A overengineered brainfuck interpreter",
     "scripts": [
         "build",
         "dev",
