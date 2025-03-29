@@ -1,0 +1,12 @@
+{
+    "name": "super-cool-project",
+    "version": "0.0.0",
+    "description": "a super cool project",
+    "scripts": [
+        "build",
+        "dev",
+        "test",
+        "benchmark",
+        "execute"
+    ]
+}
