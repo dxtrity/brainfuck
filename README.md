@@ -20,7 +20,7 @@ An **overengineered** [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) inter
 `@` print a **memory snapshot** <br>
 
 ### Extra Features
-This is an **overengineered** interpreter so it has things you don't need but are cool enough to make me spend 3h on the project.
+This is an **overengineered** interpreter so it has things you don't need but are cool enough to make me spend 5h on the project.
 
 #### Debug Information
 <div align="center">
