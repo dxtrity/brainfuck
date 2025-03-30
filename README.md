@@ -38,6 +38,8 @@ Like the debug, except putting **@** will spew out a snapshot of the current mem
 
 You can customise how much of the memory you see with the `-snapx` and `-snapy` flags. Each representing the amount of addresses above and below the pointer address.
 
+You can also use the `-memory` flag to set the exact size of the memory array by bytes.
+
 #### Images and Colors
 <div align="center">
     <img src="./static/creepa.png"/>
