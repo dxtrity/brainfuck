@@ -2,6 +2,9 @@
 
 An **overengineered** [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter that can do everything every other brainfuck interpreters can but also a little more.
 
+## Dependencies
+This project is using **Super**. An *in-house* project manager I created for managing commands and project structure. The code is closed-source at the minute but I will release the files onto GitHub as soon as I can.
+
 ## Core Features
 - [x] Full Brainfuck Interpreter
 - [x] Interpret by File
