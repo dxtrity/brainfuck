@@ -1,6 +1,6 @@
 # Cerebrum Fornicate
 
-An **overengineered** [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter that can do everything every other brainfuck interpreter can but also a little more.
+An **overengineered** [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) interpreter that can do everything every other brainfuck interpreters can but also a little more.
 
 ## Core Features
 - [x] Full Brainfuck Interpreter
@@ -8,16 +8,16 @@ An **overengineered** [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) inter
 - [x] Interpret by Cmd Args
 
 ### Commands
-`>` *increment* the data **pointer**
-`<` *decrement* the data **pointer**
-`+` *increment* the **byte** at the data pointer
-`-` *decrement* the **byte** at the data pointer
-`.` *output* the **byte** at the data pointer
-`,` accept one **byte** of *input*
-`[` *jump forward* past the **matching *]*** if the byte at the pointer is **0**
-`]` *jump back* to the **matching *[*** if the byte at the pointer is **nonzero**
-`#` print **debug information**
-`@` print a **memory snapshot**
+`>` *increment* the data **pointer** <br>
+`<` *decrement* the data **pointer** <br>
+`+` *increment* the **byte** at the data pointer <br>
+`-` *decrement* the **byte** at the data pointer <br>
+`.` *output* the **byte** at the data pointer <br>
+`,` accept one **byte** of *input* <br>
+`[` *jump forward* past the **matching *]*** if the byte at the pointer is **0** <br>
+`]` *jump back* to the **matching *[*** if the byte at the pointer is **nonzero** <br>
+`#` print **debug information** <br>
+`@` print a **memory snapshot** <br>
 
 ### Extra Features
 This is an **overengineered** interpreter so it has things you don't need but are cool enough to make me spend 3h on the project.
@@ -43,16 +43,16 @@ You can customise how much of the memory you see with the `-snapx` and `-snapy` 
     <img src="./static/creepa.png"/>
 </div>
 
-The interpreter can spew out colors to the terminal.
+The interpreter can spew out colors to the terminal. <br>
 Depending on the number in the current address the interpreter will spew out a 2 character wide square.
 
-`>32`: Black
-`>64`: Red
-`>96`: Green
-`>128`: Yellow
-`>160`: Blue
-`>192`: Magenta
-`>224`: Cyan
-default: White
+`>32`: Black <br>
+`>64`: Red <br>
+`>96`: Green <br>
+`>128`: Yellow <br>
+`>160`: Blue <br>
+`>192`: Magenta <br>
+`>224`: Cyan <br>
+default: White <br>
 
 The size at which the image wraps can be customised with `-w` flag. It's 16 by default
