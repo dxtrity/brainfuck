@@ -48,13 +48,13 @@ You can also use the `-memory` flag to set the exact size of the memory array by
 The interpreter can spew out colors to the terminal. <br>
 Depending on the number in the current address the interpreter will spew out a 2 character wide square.
 
-`>32`: Black <br>
-`>64`: Red <br>
-`>96`: Green <br>
-`>128`: Yellow <br>
-`>160`: Blue <br>
-`>192`: Magenta <br>
-`>224`: Cyan <br>
+`>32`:   Black <br>
+`>64`:   Red <br>
+`>96`:   Green <br>
+`>128`:  Yellow <br>
+`>160`:  Blue <br>
+`>192`:  Magenta <br>
+`>224`:  Cyan <br>
 default: White <br>
 
 The size at which the image wraps can be customised with `-w` flag. It's 16 by default
